@@ -17,7 +17,7 @@ const WindowButton = ({ ping, onClick, icon, name, styleClass }: WindowButtonPro
       }`}
       onClick={onClick}
     >
-      {ping ? <Ping color="purple" /> : <></>}
+      {ping ? <Ping color="white" /> : <></>}
       {icon}
       <p className="font-mono">{name}</p>
     </div>
