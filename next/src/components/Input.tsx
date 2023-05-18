@@ -110,7 +110,7 @@ const Input = (props: InputProps) => {
     inputElement = (
       <div
         className={clsx(
-          "flex w-full flex-row items-center overflow-clip rounded-xl border-[2px] border-white/10 bg-[#3a3a3a]  px-2 hover:border-[#1E88E5]/40 focus:border-[#1E88E5]",
+          "flex w-full flex-row items-center overflow-clip rounded-xl border-[2px] border-white/10 bg-[#3a3a3a]  px-2 hover:border-[#22C55E]/40 focus:border-[#22C55E]",
           disabled && " cursor-not-allowed hover:border-white/10",
           left && "md:rounded-l-none",
           small && "text-sm sm:py-[0]"
@@ -141,7 +141,7 @@ const Input = (props: InputProps) => {
     inputElement = (
       <input
         className={clsx(
-          "border:black delay-50 w-full rounded-xl bg-[#3a3a3a] py-1 text-sm tracking-wider outline-0 transition-all placeholder:text-white/20 hover:border-[#1E88E5]/40 focus:border-[#1E88E5] sm:py-3 md:text-lg",
+          "border:black delay-50 w-full rounded-xl bg-[#3a3a3a] py-1 text-sm tracking-wider outline-0 transition-all placeholder:text-white/20 hover:border-[#22C55E]/40 focus:border-[#22C55E] sm:py-3 md:text-lg",
           !isTypeRange() && "border-[2px] border-white/10 px-2",
           disabled && " cursor-not-allowed hover:border-white/10",
           left && "md:rounded-l-none",
