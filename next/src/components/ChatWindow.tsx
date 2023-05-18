@@ -215,8 +215,8 @@ const ExampleAgentButton = ({
     <div
       className={clsx(
         `w-full p-2 sm:w-[33%]`,
-        `cursor-pointer rounded-lg bg-sky-600 font-mono text-sm hover:bg-sky-700 sm:text-base`,
-        `border-[2px] border-white/20 hover:border-[#1E88E5]/40`
+        `cursor-pointer rounded-lg bg-green-600 font-mono text-sm hover:bg-green-700 sm:text-base`,
+        `border-[2px] border-white/20 hover:border-[#22C55E]/40`
       )}
       onClick={handleClick}
     >
@@ -381,7 +381,7 @@ const ChatMessage = ({ message }: { message: Message }) => {
     <div
       className={`${getMessageContainerStyle(
         message
-      )} mx-2 my-1 rounded-lg border-[2px] bg-white/20 p-1 font-mono text-sm hover:border-[#1E88E5]/40 sm:mx-4 sm:p-3 sm:text-base`}
+      )} mx-2 my-1 rounded-lg border-[2px] bg-white/20 p-1 font-mono text-sm hover:border-[#22C55E]/40 sm:mx-4 sm:p-3 sm:text-base`}
     >
       {message.type != MESSAGE_TYPE_SYSTEM && (
         // Avoid for system messages as they do not have an icon and will cause a weird space
@@ -442,7 +442,7 @@ const FAQ = () => {
     <p>
       <br />
       If you are facing issues, please head over to our{" "}
-      <a href="https://docs.reworkd.ai/faq" className="text-sky-500">
+      <a href="https://docs.reworkd.ai/faq" className="text-green-500">
         FAQ
       </a>
     </p>
