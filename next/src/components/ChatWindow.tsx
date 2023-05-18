@@ -354,7 +354,7 @@ const MacWindowHeader = (props: HeaderProps) => {
               icon={<FaSave size={12} />}
               name={`${t("SAVE", { ns: "common" })}`}
               styleClass={{
-                container: `relative bg-[#3a3a3a] md:w-20 text-center font-mono rounded-lg text-gray/50 border-[2px] border-white/30 font-bold transition-all sm:py-0.5 hover:border-[#1E88E5]/40 hover:bg-[#6b6b6b] focus-visible:outline-none focus:border-[#1E88E5]`,
+                container: `relative bg-[#3a3a3a] md:w-20 text-center font-mono rounded-lg text-gray/50 border-[2px] border-white/30 font-bold transition-all sm:py-0.5 hover:border-[#22C55E]/40 hover:bg-[#6b6b6b] focus-visible:outline-none focus:border-[#22C55E]`,
               }}
             />
           </PopIn>
@@ -367,7 +367,7 @@ const MacWindowHeader = (props: HeaderProps) => {
         items={exportOptions}
         styleClass={{
           container: "relative",
-          input: `bg-[#3a3a3a] animation-duration text-left py-1 px-2 text-sm font-mono rounded-lg text-gray/50 border-[2px] border-white/30 font-bold transition-all sm:py-0.5 hover:border-[#1E88E5]/40 hover:bg-[#6b6b6b] focus-visible:outline-none focus:border-[#1E88E5]`,
+          input: `bg-[#3a3a3a] animation-duration text-left py-1 px-2 text-sm font-mono rounded-lg text-gray/50 border-[2px] border-white/30 font-bold transition-all sm:py-0.5 hover:border-[#22C55E]/40 hover:bg-[#6b6b6b] focus-visible:outline-none focus:border-[#22C55E]`,
           option: "w-full py-[1px] md:py-0.5",
         }}
       />
